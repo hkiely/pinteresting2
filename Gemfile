@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 #Bootstrap, converted to Sass and ready to drop into Rails
 gem "bootstrap-sass", "~> 3.1.1.0"
 
+# Manage login, passwords, emails, 
+gem "devise", "~> 3.2.3"
+
 
 
 group :development, :test do
@@ -44,7 +47,7 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+# gem 'bcrypt', '~> 3.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
